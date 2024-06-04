@@ -1,0 +1,72 @@
+/* BookATrip.css */
+.book-trip-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.book-trip-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.book-trip-form label {
+  font-weight: bold;
+  color: #0a3d62; /* Washed out dark blue */
+  text-align: left;
+}
+
+.book-trip-form input[type="date"],
+.book-trip-form input[type="time"],
+.book-trip-form input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box; /* Ensures the padding and border are included in the element's total width and height */
+}
+
+.book-now-button {
+  padding: 10px;
+  background-color: #0a3d62; /* Washed out dark blue */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-now-button:hover {
+  background-color: #ee5a24; /* Washed out orange */
+}
+
+.message {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.message.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}

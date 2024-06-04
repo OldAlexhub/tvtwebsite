@@ -1,0 +1,56 @@
+/* styles/Layout.css */
+.navbar {
+  background-color: #e3e3e3; /* Light grey background for a modern look */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #0a3d62; /* Washed out dark blue */
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 1rem;
+}
+
+.navbar-nav .nav-link {
+  color: #0a3d62; /* Washed out dark blue */
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ee5a24; /* Washed out orange */
+}
+
+.navbar-toggler {
+  border-color: #0a3d62; /* Washed out dark blue */
+}
+
+.navbar-toggler-icon {
+  background-color: #0a3d62; /* Washed out dark blue */
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  color: #0a3d62; /* Washed out dark blue */
+  padding: 0;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.logout-button:hover {
+  color: #ee5a24; /* Washed out orange */
+}
